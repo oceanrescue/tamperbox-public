@@ -13,6 +13,14 @@ Report bugs, request features, suggest new tools, and help improve [Tamperbox](h
 
 Search existing issues first. If someone has reported the same problem or idea, add useful details or a 👍 reaction to that issue.
 
+## Reporting website and documentation bugs
+
+For bugs on the website or documentation site, we prefer reports captured with [Fairlead Recorder for Chrome](https://chromewebstore.google.com/detail/fairlead-recorder/opieeaanlhoonobnghfobgobonfjjoaa). Record the steps that reproduce the problem, then attach the relevant exported files to your issue alongside the expected and actual behavior.
+
+Recorded actions, console output, and network requests help us reproduce and investigate the failure without repeated requests for more information. This can substantially reduce the time spent diagnosing an issue. Review the exported files for sensitive data before attaching them.
+
+A recording is optional. For a typo or broken link, the page URL and a short description are enough.
+
 ## How the backlog works
 
 New issues start with `status:triage`. Maintainers may request more information (`status:needs-info`), accept work into the backlog (`status:planned`), or mark work underway (`status:in-progress`). Closed issues include an explanation or a link to the resolution.
