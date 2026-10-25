@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Tamperbox documentation
+    url: https://docs.tamperbox.dev
+    about: Read tool guides and API/MCP documentation.

@@ -1,0 +1,62 @@
+name: Bug report
+description: Report something that does not work as expected.
+title: '[Bug]: '
+labels:
+  - bug
+  - status:triage
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Search existing issues before submitting. This tracker is public: remove credentials,
+        personal data, and confidential content from examples and screenshots.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Website or tool
+        - API
+        - MCP integration
+        - Documentation
+        - Other / unsure
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Tool or URL
+      description: Which tool, page, API operation, or MCP client is affected?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include a small, sanitized example and the steps needed to see the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead? Include exact error text if available.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser and OS, or API/MCP client and version.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Additional context
+      description: Optional screenshots, sanitized logs, frequency, or workarounds.

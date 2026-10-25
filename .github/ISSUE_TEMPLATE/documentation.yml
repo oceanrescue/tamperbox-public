@@ -1,0 +1,31 @@
+name: Documentation or broken link
+description: Report unclear, missing, or incorrect documentation and broken links.
+title: '[Docs]: '
+labels:
+  - documentation
+  - status:triage
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Search existing issues before submitting. This tracker is public: remove credentials,
+        personal data, and confidential content from examples and screenshots.
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      description: Where did you find the issue?
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What needs fixing?
+      description: Identify the confusing text or broken link.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested correction
+      description: Optional replacement wording, supporting reference, or explanation.
